@@ -1,0 +1,420 @@
+a{
+	text-decoration: none;
+	outline: 0;
+	/*color: #000;*/
+}
+.margin1{
+	margin-bottom: 30px;
+}
+.title1{
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+	padding-bottom: 30px;
+}
+.title1:before {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	height: 1px;
+	width: 100%;
+	background: #999;
+}
+.title1:after {
+	content: "";
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	height: 5px;
+	width: 80px;
+	background: #006489;
+}
+.title2{
+	font-family: 'Ubuntu', sans-serif;
+	background: #0f75bc;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 10px;
+	font-size: 22px;
+}
+.padding1{
+	padding: 50px 0;
+}
+.marginB1{
+	margin-bottom: 20px;
+}
+.color1{
+	background: #efefef;
+}
+.color2{
+	color: #000;
+	/*background: linear-gradient(142deg, rgb(11 37 51) 0%, rgb(18 17 93) 100%);*/
+	background: linear-gradient(142deg, rgb(197 235 255) 0%, rgb(255 255 255) 100%);
+}
+.searchNews{
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+#header{
+	padding: 20px 0;
+}
+#language{
+	text-align: right;
+	float: right;
+	position: absolute;
+	right: 0px;
+	z-index: 1;
+	max-width: 300px;
+	margin-top: 30px;
+}
+#language ul li{
+	list-style: none;
+	display: inline-block;
+}
+#language a{
+	background:#006489;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px;
+}
+#language a:hover{
+	background: #6cc7e8;
+}
+#language .current-lang a{
+	background: #6cc7e8!important;
+	cursor: default;
+}
+#nav{
+	background-color: #006489!important;
+}
+#nav .nav-link{
+	color: #fff;
+}
+#nav .nav-link:hover{
+	color: #999;
+}
+#footer{
+	background-color: #006489;
+	color: #fff;
+}
+#footer a{
+	color: #fff;
+}
+#footer a:hover{
+	color: #ccc;
+}
+.slideNewsBox{
+	padding: 10px;
+}
+.slideNewsBox a{
+	color: #333;
+}
+.slideNewsBox a:hover{
+	color: #666;
+}
+.slideNewsBox h3{
+	font-size: 20px;
+}
+.slideNewsBoxImg{
+	text-align: center!important;
+	background: #eee;
+}
+.slideNewsBoxImg img{
+	margin: auto;
+	width: auto;
+	max-height: 180px;
+}
+.slideNewsDate{
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+}
+#boxConheca .active{
+	background-color: #fafafa;
+	border-bottom: 0;
+	border-left: 5px solid #006489;
+}
+#boxConheca .tab-pane{
+	padding: 30px;
+	border: 1px solid #dee2e6;
+	border-top: 0;
+	background-color: #fafafa;
+	border-left: 5px solid #006489;
+}
+#imgBrisa{
+	max-width:300px;
+	float:left;
+	margin: 0 20px 10px 0;
+}
+#rssHome ul{
+	list-style: none;
+	padding: 15px;
+	border-radius: 5px;
+	background: #fff;
+}
+#rssHome ul li{
+	border-bottom: 1px solid #999;
+	padding: 5px 0; 
+}
+#rssHome ul li:last-child{
+	border-bottom: 0;
+}
+#rssHome ul li:hover{
+	background: #f5f5f5;
+}
+#rssHome ul span{
+	display: block;
+	font-size: 11px;
+	color: #999;
+}
+.carousel-caption{
+	bottom: 10px;
+	padding: 0;
+}
+.carousel-caption h5, .carousel-caption p{
+
+	color: #000;
+	padding: 5px 20px;
+	margin-bottom: 0;
+	background: rgba(255,255,255, .8);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	width: 4rem;
+	height: 4rem;
+}
+.boxWebinar{
+	margin-bottom: 30px;
+	padding-bottom:30px; 
+	border-bottom: 1px solid #ddd;
+}
+.boxWebinar h2{
+	margin-bottom: 20px;
+}
+.cardA{
+	height: 300px;
+}
+.catNames li{
+	display: inline-block;
+	border: 1px solid #999;
+	margin: 1px;
+	padding: 3px;
+	border-radius: 3px;
+}
+/**plugin filter**/
+.searchandfilter>div{
+	padding: 20px 0px 10px 10px;
+	background: #eee;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+.searchandfilter>div>ul{
+	width: 100%;
+	padding-left: 10px;
+}
+.searchandfilter li{
+	display: inline-block;
+	width: 33%;
+}
+.searchandfilter input[type="text"], .searchandfilter select{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 2px;
+}
+.searchandfilter input[type="text"]:acitve, .searchandfilter select:acitve{
+	border: 1px solid #ddd;
+}
+.searchandfilter input[type="submit"]{
+	width: 100%;
+	color: #fff;
+	background-color: #0d6efd;
+	border: none;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+.searchandfilter input[type="submit"]:hover{
+	background: #0b5ed7;
+}
+.widgetfilter div{
+	padding: 10px;
+}
+.widgetfilter ul{
+	padding: 0;
+}
+.widgetfilter li{
+	width: 100%;
+	margin:10px 0 10px 5px;
+}
+.widgetfilter li:last-child{
+	margin-bottom: 0px;
+}
+.widgets-category p{
+	display: none;
+}
+#bg-perfil{
+	background: url(../img/bg-perfil.jpg) center right no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+#bg-perfil a{
+	color: #fff;
+}
+@media (max-width: 1400px){
+	.slideNewsBoxImg img{
+		max-height: 155px;
+	}
+}
+@media (max-width: 1200px){
+	.slideNewsBoxImg img{
+		max-height: 175px;
+	}
+}
+@media (max-width: 992px){
+	.slideNewsBoxImg img{
+		max-height: 200px;	
+	}
+}
+@media (max-width: 768px){
+	.marginB1{
+		margin-bottom: 20px;
+	}
+	.cardA{
+		max-width: 100%;
+		height: auto;
+	}
+	#brand{
+		text-align: center;
+	}
+	#language{
+		float: none;
+		text-align: center;
+		position: static;
+		right: auto;
+		max-width: 100%;
+		margin-top: 10px;
+	}
+	.slideNewsBoxImg img{
+		max-height: 100%;
+	}
+
+}
+/*Page Brisa*/
+.padding2{
+	padding: 50px 0;
+}
+#hearderBrisa{
+	padding: 30px 0;
+	background: url('../img/bgHeaderBrisa.png') bottom fixed;
+}
+#bvs{
+	width: 90px;
+	margin-right: 10px;
+	background: #fff;
+}
+#logoBrisa{
+	width: 500px!important;
+}
+#logoRedETSA{
+	text-align: right;
+}
+#logoRedETSA img{
+	width: 200px!important;
+}
+#lang{
+	text-align: right;
+	margin-top: -30px;
+}
+#lang ul{
+	list-style: none;
+}
+#lang ul li{
+	display: inline-block;
+	font-size: 12px;
+}
+#lang ul li a{
+	background: #ccc;
+	margin: 0px;
+	padding: 5px;
+	color: #666;
+}
+#lang ul li a:hover{
+	background: #ddd;
+}
+#lang ul li .active{
+	background: #123;
+}
+#searchBrisa{
+	background-color: #f7941e;
+	border-bottom: 5px solid #c4771a;
+}
+#footerBrisa{
+	background-color: #f7941e;
+	color: #fff;
+}
+#footerBrisa a{
+	color: #fff;
+}
+#footerBrisa a:hover{
+	color: #ddd;
+}
+#footerBrisa img{
+	max-width: 500px;
+}
+#barAcessibilidade {
+	background: #f7941e!important;
+}
+.sectionPageBrisa:nth-child(odd){
+	background-image: linear-gradient(#f2f2f2, #ddd);
+}
+.accordion-button{
+	background: #7dc1db;
+	color: #fff;
+}
+.accordion-button:not(.collapsed){
+	background: #27afe1;
+	color: #fff;
+}
+.advanced-search{
+	padding-top: 10px;
+	display: inline-block;
+	color: #000;
+}
+@media (max-width: 1200px) {
+	#logoBrisa{
+		width: 35%;
+	}
+	#logoRedETSA{
+		width:35%;
+	}
+}
+@media (max-width: 992px) {
+	#bvsbox{
+		float: none!important;
+		text-align: center;
+	}
+	#bvs{
+		margin: auto;
+	}
+	#logoBrisa,
+	#logoRedETSA{
+		text-align: center;
+		width: 100%;
+	}
+	#lang{
+		text-align: center;
+	}
+}
+@media (max-width: 560px){
+	#logoBrisa{
+		text-align: center;
+		width: 90%!important;
+	}
+}
+.page-brisa .widget_rss ul{
+	padding:0
+}
+.page-brisa .widget_rss li{
+	margin-bottom:30px;
+	list-style: none;
+}

@@ -1,0 +1,25 @@
+/***** Estilos de la BVS Perinatal *****/
+.container {width: 1200px;}
+.site_name {margin-top: 50px;margin-left: 30px;width: 300px;}
+.headerWidget { float: right; clear:right;margin:16px 12px 0 0;}
+.bar { width: auto !important; }
+.bar #contact {margin-top: 3px;}
+.bar a:hover {color: #fff;}
+.column .widget {padding: 10px !important; background: #f2f2f2 !important;}
+.column strong.widget-title {margin-bottom: 12px;font-size: 135% !important;}
+.widget-title a {text-decoration: none !important;}
+.widget-title a:hover {color: #459FFF;}
+.widget-title::after {content:'';display: block;border-bottom: 2px solid #014a97;margin-top: 5px;}
+.column_1 {margin-left: .7em;}
+.column_1 .vhl-collection .page_item a, 
+.column_3 .vhl-collection .page_item a {font-weight: normal;}
+.column .widget-title {border-left:5px solid #587a7a; padding-left: 8px; line-height: 100% !important; display: block;}
+.children li {font-size: 100% !important;}
+.vhl-themes li {height: auto !important;}
+.single .site-content {width:1180px !important;background: #f2f2f2;}
+.entry-header .entry-title {border-bottom:5px solid #014a97}
+.entry-content p {margin-left: 28px !important;}
+.ie .header {background-color:  #014a97 !important;}
+html:lang(es-ES) .ie .header {background: #014a97 url("/wp-content/uploads/2015/03/banner_es.jpg") no-repeat scroll left top;}
+html:lang(en-US) .ie .header {background: #014a97 url("/wp-content/uploads/2015/03/banner_en.jpg") no-repeat scroll left top;}
+html:lang(pt-BR) .ie .header {background: #014a97 url("/wp-content/uploads/2015/03/banner_pt.jpg") no-repeat scroll left top;}

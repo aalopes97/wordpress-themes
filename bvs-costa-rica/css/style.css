@@ -1,0 +1,123 @@
+a{
+	text-decoration: none;
+}
+.title1{
+	color:#05487f;
+	font-size: 24px;
+	font-variant:petite-caps;
+	font-weight: normal;
+	border-bottom: 1px solid #05487f;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.padding1{
+	padding: 50px;
+}
+.padding2{
+	padding:30px 0 1px 0;
+}
+#header{
+	padding: 20px 0;
+}
+#header-bvs{
+	height: 120px;
+}
+#logo-costarica{
+	margin-left: 20px;
+}
+#nav{
+	background: #1772b1!important;
+	color: #fff;
+}
+#nav a{
+	color: #fff;
+}
+#nav a:hover{
+	color: #ccc;
+}
+#search{
+	background:url("../img/bg-search.jpg") no-repeat center;
+	padding: 80px;
+	color: #fff;
+}
+#search{
+	background:url("../img/bg-search.jpg") no-repeat center;
+	padding: 80px;
+	color: #fff;
+}
+#search input[type=text]{
+	margin-bottom: 10px;
+}
+#footer{
+	padding: 30px 0;
+	background: #31296c;
+	color: #fff;
+}
+#footer a{
+	color: #fff;
+}
+#footer a:hover{
+	color: #ccc;
+}
+#literatura .card{
+	border:2px solid #1a7dbb;
+	border-bottom-width:10px;
+	border-top-width:5px;
+	text-align:center;
+	padding:10px 5px 0px 5px ;
+	font-weight:bold;
+	font-size:20px
+}
+#literatura .card img{
+	max-width:120px;
+}
+#rss-home li{
+	margin-bottom:10px;
+	border-bottom: 1px solid #ddd;
+	padding:10px 10px 5px 10px;
+}
+#rss-home li:hover{
+	background: #f2f2f2;
+}
+.home-destaques .bi{
+	font-size:30px;
+	margin-right:10px;
+}
+.home-destaques a{
+	font-size:30px;
+	color:#31296c;
+	position:relative;
+}
+.home-destaques a:hover{
+	color:#1772b1;
+}
+.home-destaques a::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 7px;
+    width: 50px;
+    background: #da291c;
+    border-radius: 20px;
+    transition: width .5s ease;
+}
+.home-destaques a:hover:after{
+	width: 30px;
+}
+@media (max-width:772px){
+	#header-bvs{
+		width: 30%;
+	}
+	#logo-costarica{
+		max-width: 60%;
+	}
+}
+@media (max-width:560px){
+	#header-bvs{
+		width: 20%;
+	}
+	#logo-costarica{
+		max-width: 70%;
+	}
+}
