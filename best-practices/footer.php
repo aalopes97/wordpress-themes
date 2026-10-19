@@ -1,7 +1,6 @@
 <?php
     $site_language = strtolower(get_bloginfo('language'));
     $lang = substr($site_language,0,2);
-    $lang = ( $lang == "fr" ) ? "en" : $lang;
 
     $policy_url = [];
     $policy_url["en"] = "https://www.paho.org/en/privacy-policy";
